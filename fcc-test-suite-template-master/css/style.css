@@ -1,0 +1,28 @@
+ * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(224, 223, 220);
+ }
+
+ li, a {
+    font-family: sans-serif;
+    color: rgb(17, 17, 17);
+
+ }
+
+ header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 10%;
+
+ }
+ .nav-link {
+    list-style: none;
+    display: inline;
+    padding: 0px 20px;
+ }
+
+ @media (min-width: 600px) {
+    
+ }
