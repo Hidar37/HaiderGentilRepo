@@ -1,2 +1,1 @@
-# HaiderGentilRepo 
-# Hello in Afgh? 
+#this is all project
