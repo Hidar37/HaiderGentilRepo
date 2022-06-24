@@ -1,15 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Fork Me! FCC: Test Suite Template</title>
-    <link rel="stylesheet" href="css/style.css">
-  </head>
 
-  <body>
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-<h1>Hello Gentil, Haider, Ahmad</h1>
-   
-    <script  src="js/index.js"></script>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Landing Page</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/fontawesome-free-5.15.2-web/css/all.css">
+</head>
+
+<body>
+  <header id="header">
+    <div class="image">
+      <img id="header-img" src="image/logo.png" alt="logo">
+    </div>
+    <nav id="nav-bar">
+      <ul>
+        <li class="nav-link"><a href="#icon-text-container">Features</a></li>
+        <li class="nav-link"><a href="#box2">How it works</a></li>
+        <li class="nav-link"><a href="#price-container">Pricing</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section class="container">
+    <!-- Top Input Box -->
+    <div id="top-input-box">
+      <p>Handcrafted, home-made masterpieces</p>
+      <form action="https://www.freecodecamp.com/email-submit" method="POST" id="form">
+        <input type="email" id="email" placeholder="Enter Your Email Address" name="email">
+        <input type="submit" id="submit" value="GET STARTED">
+      </form>
+    </div>
+    <!-- Content / Icons & Text -->
+    <div id="icon-text-container">
+      <!-- 1 -->
+      <div class="icon-text">
+        <div class="icon">
+          <i class="fas fa-fire icon-color"></i>
+        </div>
+        <div class="text">
+          <h4>Premium Materials</h4>
+          <p>
+            Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your
+            purchase.
+          </p>
+        </div>
+      </div>
+      <!-- 2 -->
+      <div class="icon-text">
+        <div class="icon">
+          <i class="fas fa-truck icon-color"></i>
+        </div>
+        <div class="text">
+          <h4>Premium Materials</h4>
+          <p>
+            Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your
+            purchase.
+          </p>
+        </div>
+      </div>
+      <!-- 3 -->
+      <div class="icon-text">
+        <div class="icon">
+          <i class="fas fa-battery-full icon-color"></i>
+        </div>
+        <div class="text">
+          <h4>Premium Materials</h4>
+          <p>
+            Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your
+            purchase.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- Video Container -->
+    <div class="video-container" id="box2">
+      <video width="400" controls id="video">
+        <source src="mov_bbb.mp4" type="video/mp4">
+        <source src="mov_bbb.ogg" type="video/ogg">
+      </video>
+    </div>
+  </section>
+  <!-- Pricing Container -->
+  <section id="price-container">
+    <!-- Box 1 -->
+    <div class="price-card">
+      <h6>TENOR TROMBONE</h6>
+      <h5>$600</h5>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, placeat.</p>
+      <button>SELECT</button>
+    </div>
+    <!-- Box 2 -->
+    <div class="price-card">
+      <h6>BASS TROMBONE</h6>
+      <h5>$900</h5>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, placeat.</p>
+      <button>SELECT</button>
+    </div>
+    <!-- Box 3 -->
+    <div class="price-card">
+      <h6>VALVE TROMBONE</h6>
+      <h5>$1200</h5>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, placeat.</p>
+      <button>SELECT</button>
+    </div>
+  </section>
+  <footer>
+    <ul>
+      <li><a href="index.html">Privacy</a></li>
+      <li><a href="index.html">Tearms</a></li>
+      <li><a href="index.html">Contact</a></li>
+    </ul>
+    <p>Copyright 2016, Original Trombones</p>
+  </footer>
+  <!-- ===================================== -->
+  <script src="css/fontawesome-free-5.15.2-web/js/all.js"></script>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  <script src="js/index.js"></script>
+</body>
+
 </html>
